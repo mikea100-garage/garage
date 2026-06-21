@@ -1,0 +1,103 @@
+{
+	"make": "Porsche",
+	"model": "914",
+	"transmission": "Manual",
+	"year": 1974,
+	"identity": {
+		"vin": "4742917129",
+		"production_date": "September 1973",
+		"engine_number": "GA",
+		"transmission_number": ""
+	},
+	"configuration": {
+		"market": "US",
+		"engine": "2.0",
+		"fuel_system": "Bosch D-Jetronic electronic fuel injection",
+		"transmission": {
+			"type": "Manual",
+			"speeds": 5,
+			"designation": "914/11",
+			"layout": "mid-engine transaxle",
+			"description": "Type 901 5-speed manual"
+		},
+		"options": [
+			{
+				"code": "L32E",
+				"description": "Malaga Red"
+			},
+			{
+				"code": "M571",
+				"description": "Appearance Group",
+				"items": [
+					"Fog lights",
+					"Dual horns",
+					"Center console",
+					"Leather-wrapped steering wheel",
+					"Center armrest/storage compartment"
+				]
+			}
+		]
+	},
+	"work_records": [
+		{
+			"id": "pertronics",
+			"date": "June 01, 2026",
+			"mileage": 82000,
+			"performed_by": "Mike",
+			"status": "completed",
+			"task": "Replace points with pertronics"
+		}
+	],
+	"parts": {
+		"inventory": {
+			"general": {}
+		},
+		"needed": {
+			"electrical": {},
+			"suspension": {}
+		}
+	},
+	"knowledge_sources": [
+		{
+			"topic": "parts",
+			"source": "Porsche PET",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "Factory Manual",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "projects",
+			"source": "Rennlist",
+			"confidence": "medium",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "TheSamba",
+			"confidence": "high",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "914World",
+			"confidence": "high",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "YouTube",
+			"confidence": "medium",
+			"priority": 2
+		}
+	],
+	"current_project": {
+		"task": "",
+		"status": "",
+		"performed_by": ""
+	}
+}

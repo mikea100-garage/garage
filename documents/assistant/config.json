@@ -1,0 +1,479 @@
+{
+	"metadata": {
+		"name": "My Garage Archive",
+		"description": "Personal vehicle maintenance, parts and work record database",
+		"schema_version": "1.0",
+		"created": "2026",
+		"last_updated": "2026-06-20"
+	},
+	"instructions": {
+		"role": "Automotive service assistant for a personal garage archive",
+		"directives": [
+			"Read all uploaded JSON files at the start of each session to understand the vehicles, parts inventory, work records, and available documents.",
+			"When answering questions, fetch and reference the documents listed in config.json as needed. Always cite the document name and page number where the information was found.",
+			"If relevant information is not found in the provided documents, search the internet or any other available resources, and indicate that the source is external and name it if possible",
+			"When providing information about a part or service procedure, be as concise as possible.",
+			"Always provide torque specifications in all three units: ft-lbs, inch-lbs, and Nm, as different torque wrenches use different scales.",
+			"When recommending parts, prefer the brands listed in global_parts_config.preferences.brands and suppliers listed in global_parts_config.suppliers where applicable."
+		]
+	},
+	"repository": {
+		"name": "MyGarage",
+		"root": "C:/Mike/MyGarage",
+		"created": "2026"
+	},
+	"documents": {
+		"general": [
+			{
+				"id": "general_motor_oil_reference",
+				"name": "Mobil 1 Engine Oils Product Guide Sheet",
+				"file": "https://github.com/user-attachments/files/29153880/Mobil.1.Engine.Oils.Product.Guide.Sheet.-May.2022.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_K_Jetsonic",
+				"name": "Bosch - K-Jetsonic",
+				"file": "https://github.com/user-attachments/files/29162887/Bosch.-.K-Jetsonic.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Cross_Reference Info_Sec_F_H",
+				"name": "Bosch Cross Reference Information (Section F H - Don Tull)",
+				"file": "https://github.com/user-attachments/files/29162875/Bosch.Cross.Reference.Information.Section.F.H.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_EFI_Vehicle_Component_Apps_Sec_A_B_C_D",
+				"name": "Bosch - EFI_Vehicle Component Applications (Sections a,b,c,d - Don Tull)",
+				"file": "https://github.com/user-attachments/files/29162876/Bosch.-EFI_Vehicle.Component.Applications.Sections.a.b.c.d.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Fuel_Injector_Sec_A_B_C_D",
+				"name": "Bosch Fuelinjectors (Sections a,b,c,d - Don Tull",
+				"file": "https://github.com/user-attachments/files/29162877/Bosch.fuelinjectors.Sections.a.b.c.d.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Fuel_Injector_Sec_A_B_C_D",
+				"name": "Bosch - Fuelinjector Service Parts",
+				"file": "https://github.com/user-attachments/files/29162886/Bosch.-.Fuel.Injector.Service.Parts.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Fuel_Pumps",
+				"name": "Bosch Fuelpumps (Internet M-SPORT PUMPS - Don Tull",
+				"file": "https://github.com/user-attachments/files/29162878/Bosch.fuelpumps.Internet.M-SPORT.PUMPS.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Technical_Service_Parts_Sec_A_B_C_D",
+				"name": "Bosch Technical Service Parts (Sections a,b,c,d - Don Tull",
+				"file": "https://github.com/user-attachments/files/29162879/Bosch.Technical.Service.Parts.Sections.a.b.c.d.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Technical_Service_Parts_Sec_A_B_C_D",
+				"name": "Bosch Technical Service Parts (Sections a,b,c,d - Don Tull",
+				"file": "https://github.com/user-attachments/files/29162879/Bosch.Technical.Service.Parts.Sections.a.b.c.d.-.Don.Tull.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Diagram_1",
+				"name": "Bosch-diagram_1",
+				"file": "https://github.com/user-attachments/files/29162880/Bosch-diagram_1.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Diagram_2",
+				"name": "Bosch Diagram 2",
+				"file": "https://github.com/user-attachments/files/29162881/Bosch-diagram_2.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Porsche_Transmissions_Specs",
+				"name": "Porsche Transmissions Specs",
+				"file": "https://github.com/user-attachments/files/29162883/Porsche_Transmissions_Specs.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Alpha_Romeo_Bosch_Ignition_Catalogue",
+				"name": "Alpha Romeo Bosch-Ignition catalogue 07 (Ignition Parts.fm - haeussler)",
+				"file": "https://github.com/user-attachments/files/29162885/Alpha.Romeo.Bosch-Ignition.catalogue07.Ignition.Parts.fm.-.haeussler.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Welding_Galvanized",
+				"name": "Welding Galvanized Steel - Safely - Welding Zinc Coated Steel",
+				"file": "https://github.com/user-attachments/files/29162884/WeldingGalvanized.Welding.Galvanized.Steel.--.Safely.-.Welding.Zinc.Coated.Steel.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		
+		"Porsche_928": [
+			{
+				"id": "928_PET_87-91",
+				"name": "Porsche PET 1987-1991",
+				"file": "https://github.com/user-attachments/files/29153992/PET_1987_1991.pdf.pdf",
+				"type": "parts_catalog",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_PET_92-95",
+				"name": "Porsche PET 1992-1995",
+				"file": "https://github.com/user-attachments/files/29153994/PET_1992_1995.pdf.pdf",
+				"type": "parts_catalog",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_DIY_Vacuum_Diagram",
+				"name": "1987-1995 Vacuum Line Diagram",
+				"file": "https://github.com/user-attachments/assets/7b4667b1-d8a4-4334-bb13-df169b173f97",
+				"type": "DIY",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_DIY_Central_Warning_Controller",
+				"name": "Repairing Central Warning System Controller",
+				"file": "https://github.com/user-attachments/files/29154031/Porsche_928_CWS_Repair_rev1.pdf",
+				"type": "DIY",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_1",
+				"name": "928 Shop Manual Volume 1 - Drive Unit",
+				"file": "https://github.com/user-attachments/files/29168100/Manual_Volume-1-DriveUnit-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_1A",
+				"name": "928 Shop Manual Volume 1A - Drive Unit",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_2",
+				"name": "928 Shop Manual Volume 2 - Drive Train - Manual Transmission",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_3",
+				"name": "928 Shop Manual Volume 2 - Drive Train - Automatic Transmission",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+				
+			
+			
+			{
+				"id": "928_Manual_Volume_6",
+				"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
+				"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		"Porsche_914": 
+		[
+			{
+				"id": "914_D_Jetronic Fuel Injection",
+				"name": "D-Jetronic Fuel Injection - Jeff Bowlsby",
+				"file": "https://github.com/user-attachments/files/29162882/D-Jetronic.Fuel.Injection.http--www.rennlist.com-techarticles-djetronicfuel.htm.-.JABowlsby.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		"Porsche_968": 
+		[
+			{
+				"id": "914_D_Jetronic Fuel Injection",
+				"name": "D-Jetronic Fuel Injection - Jeff Bowlsby",
+				"file": "https://github.com/user-attachments/files/29162882/D-Jetronic.Fuel.Injection.http--www.rennlist.com-techarticles-djetronicfuel.htm.-.JABowlsby.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			}
+		]
+	},
+	"service_providers": [
+		{
+			"id": "Powertech",
+			"name": "Powertech",
+			"type": "shop",
+			"location": "NJ"
+		},
+		{
+			"id": "Vaporhone",
+			"name": "Vaporhone",
+			"type": "shop",
+			"location": "NJ"
+		},
+		{
+			"id": "Provost Motorsports",
+			"name": "Provost Motorsports",
+			"type": "shop",
+			"location": "NJ"
+		},
+		{
+			"id": "Bodymotion",
+			"name": "Bodymotion",
+			"type": "shop",
+			"location": "NJ"
+		},
+		{
+			"id": "Stuttgart Studios",
+			"name": "Stuttgart Studios",
+			"type": "shop",
+			"location": "NJ"
+		},
+		{
+			"id": "Repasi motorwerks",
+			"name": "Repasi motorwerks",
+			"type": "shop",
+			"location": "CT"
+		},
+		{
+			"id": "Automotive Associates of Canton",
+			"name": "Automotive Associates of Canton",
+			"type": "shop",
+			"location": "CT"
+		},
+		{
+			"id": "Precisionmtrwerks",
+			"name": "Precisionmtrwerks",
+			"type": "shop",
+			"location": "CA"
+		},
+		{
+			"id": "flat6innovations",
+			"name": "flat6innovations",
+			"type": "shop",
+			"location": "GA"
+		},
+		{
+			"id": "Auto Atlanta",
+			"name": "Auto Atlanta",
+			"type": "shop",
+			"location": "GA"
+		},
+		{
+			"id": "keys4classics",
+			"name": "keys4classics",
+			"type": "shop",
+			"location": "Australia"
+		},
+		{
+			"id": "Classic9leather",
+			"name": "Classic9leather",
+			"type": "shop",
+			"location": "MI"
+		},
+		{
+			"id": "DMEtuning",
+			"name": "DMEtuning",
+			"type": "shop",
+			"location": ""
+		},
+		{
+			"id": "Autobahn Automotive",
+			"name": "Autobahn Automotive",
+			"type": "shop",
+			"location": ""
+		},
+		{
+			"id": "Autobahn Interiors",
+			"name": "Autobahn Interiors",
+			"type": "shop",
+			"location": "CA"
+		}
+	],
+	"global_parts_config": {
+		"categories": [
+			"engine",
+			"transmission",
+			"cooling",
+			"fuel",
+			"electrical",
+			"interior",
+			"hvac",
+			"body",
+			"suspension",
+			"brakes",
+			"hardware",
+			"wheels_and_tires",
+			"tools",
+			"storage"
+		],
+		"types": [
+			"OEM",
+			"Aftermarket",
+			"Custom",
+			"NLA"
+		],
+		"statuses": [
+			"on_shelf",
+			"ordered/in_transit",
+			"installed",
+			"sold",
+			"removed",
+			"in_progress"
+		],
+		"preferences": {
+			"brands": [
+				"OEM when possible",
+				"Bosch",
+				"VDO",
+				"Mahle",
+				"Beru",
+				"Wahler",
+				"Brembo",
+				"Textar",
+				"Sebro",
+				"Bilstein",
+				"Boge",
+				"Koni",
+				"ZF",
+				"Behr",
+				"Denso",
+				"Elring",
+				"INA"
+			]
+		},
+		"suppliers": [
+			{
+				"id": "delawareporscheparts",
+				"name": "Delaware Porsche Parts",
+				"url": "https://www.delawareporscheparts.com/",
+				"type": "OEM",
+				"applies_to": ["All"]
+			},
+			{
+				"id": "gaudinporsche",
+				"name": "Gaudin Porsche",
+				"url": "https://www.gaudinporscheparts.com/",
+				"type": "OEM",
+				"applies_to": ["All"]
+			},
+			{
+				"id": "928sRUs",
+				"name": "Roger Tyson",
+				"url": "https://928srus.com/",
+				"type": "OEM and Aftermarket",
+				"applies_to": ["Porsche_928"]
+			},
+			{
+				"id": "928intl",
+				"name": "Mark Anderson",
+				"url": "https://928intl.com/",
+				"type": "Used",
+				"applies_to": ["Porsche_928"]
+			},
+			{
+				"id": "928porscheparts",
+				"name": "James Izzo",
+				"url": "https://928porscheparts.com",
+				"type": "Restoration",
+				"applies_to": ["Porsche_928"]
+			},
+			{
+				"id": "Precisionmtrwerks",
+				"name": "Precisionmtrwerks",
+				"url": "http://www.precisionmtrwerks.com/",
+				"type": "Performance",
+				"applies_to": ["Porsche_928"]
+			},
+			{
+				"id": "Pelican_Parts",
+				"name": "Pelican Parts",
+				"url": "https://pelicanparts.com/",
+				"type": "OEM and Aftermarket",
+				"applies_to": ["All"]
+			},
+			{
+				"id": "Auto_Atlanta",
+				"name": "Auto Atlanta",
+				"url": "https://www.autoatlanta.com/",
+				"type": "Custom",
+				"applies_to": ["Porsche_914"]
+			},
+			{
+				"id": "Autohause_Az",
+				"name": "Autohause Az",
+				"url": "https://www.autohausaz.com/",
+				"type": "Custom",
+				"applies_to": ["All"]
+			},
+			{
+				"id": "914Rubber",
+				"name": "914Rubber",
+				"url": "https://914rubber.com/",
+				"type": "Custom",
+				"applies_to": ["Porsche_914"]
+			},
+			{
+				"id": "restoration_design",
+				"name": "restoration_design",
+				"url": "https://www.restoration-design.com/",
+				"type": "Custom",
+				"applies_to": ["Porsche_914"]
+			},
+			{
+				"id": "fb",
+				"name": "Facebook",
+				"url": "https://www.fb.com/",
+				"type": "",
+				"applies_to": ["All"]
+			},
+			{
+				"id": "amazon",
+				"name": "Amazon",
+				"url": "https://www.amazon.com/",
+				"type": "",
+				"applies_to": ["All"]
+			}
+		]
+	}
+}

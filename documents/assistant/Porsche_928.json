@@ -1,0 +1,1202 @@
+{
+	"make": "Porsche",
+	"model": "928 S4",
+	"transmission": "Auto",
+	"year": 1987,
+	"identity": {
+		"vin": "WP0JB0929HS860286",
+		"production_date": "September 1986",
+		"engine_number": "81H 05417",
+		"transmission_number": ""
+	},
+	"configuration": {
+		"market": "US",
+		"engine": "M28/42",
+		"fuel_system": "LH-Jetronic",
+		"transmission": "A28.12 4-speed automatic",
+		"options": [
+			{
+				"code": "L908",
+				"description": "Grand Prix White (L = Lasurit)"
+			},
+			{
+				"code": "LN",
+				"description": "Dark Burgundy Leather"
+			},
+			{
+				"code": "CO2",
+				"description": "Equipped with catalytic converter"
+			},
+			{
+				"code": "158",
+				"description": "Cassette-radio Blaupunkt Reno SQR 46"
+			},
+			{
+				"code": "474",
+				"description": "Boge sports shock absorbers"
+			},
+			{
+				"code": "490",
+				"description": "Sound system"
+			},
+			{
+				"code": "494",
+				"description": "Additional amplifier"
+			},
+			{
+				"code": "570",
+				"description": "Air conditioner also between the rear seats"
+			},
+			{
+				"code": "650",
+				"description": "Sun-moon-roof"
+			},
+			{
+				"code": "900",
+				"description": "Accession of the car at the factory"
+			}
+		]
+	},
+	"work_records": [
+		{
+			"id": "waterpump",
+			"date": "April 29, 2023",
+			"mileage": 54000,
+			"performed_by": "Stan Kolen",
+			"status": "completed",
+			"task": [
+				"Replace Waterpump",
+				"Replace timing belt",
+				"Rebuild the tensioner",
+				"Replace Alternator, AC, Airpump belts",
+				"Replace muffler hangers",
+				"Remove aftermarket radar",
+				"Remove aftermarket alarm"
+			]
+		},
+		{
+			"id": "power_steering",
+			"date": "April 29, 2023",
+			"mileage": 54000,
+			"performed_by": "Stan Kolen",
+			"status": "completed",
+			"task": [
+				"Replace Power steering belt",
+				"Replace PS reservoire",
+				"Replace PS reservoire hoses",
+				"Replace PS high pressure hose",
+				"Replace PS rack",
+				"Replace tierod assemblies"
+			]
+		},
+		{
+			"id": "clock",
+			"date": "February 11, 2024",
+			"mileage": "",
+			"performed_by": "Michael",
+			"status": "completed",
+			"task": "upgrade digital clock with analog"
+		},
+		{
+			"id": "stereo",
+			"date": "June 04, 2024",
+			"mileage": "",
+			"performed_by": "Don at Unexpected Creations",
+			"status": "completed",
+			"task": "install new stereo head unit and amplifier"
+		},
+		{
+			"id": "transmission_mounts",
+			"date": "September 15, 2024",
+			"mileage": 55200,
+			"performed_by": "Stan Kolen",
+			"status": "completed",
+			"task": "Replace transmission mounts"
+		},
+		{
+			"id": "heater_valve",
+			"date": "September 15, 2024",
+			"mileage": 55200,
+			"performed_by": "Stan Kolen",
+			"status": "completed",
+			"task": "Replace heater valve and hose"
+		},
+		{
+			"id": "motor_mounts",
+			"date": "October 19, 2024",
+			"mileage": 55400,
+			"performed_by": "Christopher",
+			"status": "completed",
+			"task": [
+				"Install oil pan gasket",
+				"Install GTS oil baffle in oil pan",
+				"Install Volvo motor mounts",
+				"Install new polyeurethan front sway bar bushings",
+				"Install new front sway bar links",
+				"Rebuild motor mount heat shields",
+				"Powdercoat: sway bat, strut brace, PS plate, various brackets"
+			]
+		},
+		{
+			"id": "fuel_filter",
+			"date": "November 02, 2024",
+			"mileage": 55500,
+			"performed_by": "Christopher",
+			"status": "completed",
+			"task": [
+				"Replace check valve",
+				"Replace fuel filter"
+			]
+		},
+		{
+			"id": "intake_refresh",
+			"status": "In progress",
+			"performed_by": "Christopher"
+		}
+	],
+	"parts": {
+		"inventory": {
+			"general": [
+				{
+					"part_description": "Air Filter",
+					"part_number": "928 110 185 03",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 35.82,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Oil Filter",
+					"part_number": "928 107 201 07",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 10.66,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "BBS Center Cap Wrench",
+					"part_number": "36 13 1 179 325",
+					"category": "wheels_and_tires",
+					"quantity": 1,
+					"source": "ecstuning.com",
+					"price": 39.87,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Colgan Bra",
+					"part_number": "",
+					"category": "body",
+					"quantity": 1,
+					"source": "Pelican_Parts",
+					"price": 76,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Jack Stands Pads",
+					"part_number": "",
+					"category": "tools",
+					"quantity": 1,
+					"source": "Amazon",
+					"price": 14.99,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Odmeter Gear",
+					"part_number": "",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "odometergears.com",
+					"price": 31.43,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Key Head",
+					"part_number": "944 538 041 01 M100",
+					"category": "tools",
+					"quantity": 1,
+					"source": "Amazon",
+					"price": 36.99,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Keys4Classic",
+					"part_number": "1 #060 Silca brand key and 1 #567 original Huf key blade only (source the head yourself) cut to code US$124 plus shipping   Regular tracked airmail: 2 to 3 weeks to USA US$17 = order total US$141",
+					"category": "tools",
+					"quantity": 2,
+					"source": "keys@keys4classics.com",
+					"price": 141,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Rear Deck Insulation Pads",
+					"part_number": "",
+					"category": "interior",
+					"quantity": 1,
+					"source": "Classic9leather",
+					"price": 125,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Map Door Pocket Knob",
+					"part_number": "928 555 607 02",
+					"category": "interior",
+					"quantity": 2,
+					"source": "delawareporscheparts",
+					"price": 13.92,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Carpet Mat Hold Down Button",
+					"part_number": "N 900 685 01",
+					"category": "interior",
+					"quantity": 3,
+					"source": "delawareporscheparts",
+					"price": 2.68,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Rotary Door Knob Insert",
+					"part_number": "911 531 703 00",
+					"category": "interior",
+					"quantity": 1,
+					"source": "delawareporscheparts",
+					"price": 7.07,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Hatch Receiver Insert",
+					"part_number": "",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "FB Thom from Germany",
+					"price": 40,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Rear AC vent exsaust louvres pp. 764",
+					"part_number": "928 570 033 00 WUS",
+					"category": "hvac",
+					"quantity": 1,
+					"source": "928porscheparts",
+					"price": 25,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Central Warning Controller (Central Indicator)",
+					"part_number": "928 641 602 04",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "928intl",
+					"price": 150,
+					"notes": "Goes behind dead pedal",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Fender Skirt left rear aft 87+ (Block off plate)",
+					"part_number": "928 504 309 03",
+					"category": "wheels_and_tires",
+					"quantity": 1,
+					"source": "928intl",
+					"price": 60,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "ABS Cover Black",
+					"part_number": "928 612 541 00",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "928intl",
+					"price": 40,
+					"notes": "Black plastic cover, goes in the trunc",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Window switch x2",
+					"part_number": "928 613 123 07",
+					"category": "electrical",
+					"quantity": 2,
+					"source": "ebay",
+					"price": 24.78,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Air Compressor",
+					"part_number": "",
+					"category": "wheels_and_tires",
+					"quantity": 2,
+					"source": "ebay $100 ea and $85 ea",
+					"price": 185,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Hood Insulation Pad",
+					"part_number": "928 556 285 02",
+					"category": "engine",
+					"quantity": null,
+					"source": "ebay",
+					"price": 85.35,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Battery Ground Strap (shipping $13.94)",
+					"part_number": "928 612 009 14",
+					"category": "electrical",
+					"quantity": null,
+					"source": "928sRUs",
+					"price": 34.95,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Lloyd carpet",
+					"part_number": "",
+					"category": "interior",
+					"quantity": 1,
+					"source": "lloydmatsstore",
+					"price": 120,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Boot cover",
+					"part_number": "928 555 179 02 2LB(Burgundy)",
+					"category": "interior",
+					"quantity": 1,
+					"source": "ebay",
+					"price": 219,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Rear Wiper Switch",
+					"part_number": "928 613 129 03",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "",
+					"price": 74.49,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Sunroof Switch",
+					"part_number": "928 613 120 00",
+					"category": "electrical",
+					"quantity": 1,
+					"source": "",
+					"price": 50.45,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Coin Holder",
+					"part_number": "928 555 075 05 NLA",
+					"category": "interior",
+					"quantity": 2,
+					"source": "fb",
+					"price": 140,
+					"usage": "2 units $70 ea",
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Analog Clock",
+					"part_number": "928 641 701 05",
+					"category": "electrical",
+					"quantity": null,
+					"source": "",
+					"price": 230,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Motor Mounts (Volvo) x2",
+					"part_number": "928 375 039 00",
+					"category": "suspension",
+					"quantity": 2,
+					"source": "928sRUs",
+					"price": 180,
+					"notes": "",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Uber Oil Pan Gasket",
+					"part_number": "928 101 207 00",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": 55,
+					"notes": "Uber Oil Pan Gasket",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Door Panel Clip",
+					"part_number": "823 867 299OE",
+					"category": "interior",
+					"quantity": 6,
+					"source": "928sRUs",
+					"price": 5.7,
+					"notes": "Door Panel Clip Black x6 $0.95 ea",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "87-95 For Porsche 928s 928 Front Bumper Tow Hook Relocator Bracket License Plate",
+					"part_number": "",
+					"category": "body",
+					"quantity": 1,
+					"source": "ebay",
+					"price": 53,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Transmission Mount",
+					"part_number": "928 375 045 16",
+					"category": "transmission",
+					"quantity": 2,
+					"source": "AutohauseAz",
+					"price": 223.98,
+					"notes": "Transmission Mount (x2) $111.99ea",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Oil baffle",
+					"part_number": "928 107 139 07",
+					"category": "engine",
+					"quantity": null,
+					"source": "gaudinporscheparts",
+					"price": 49.66,
+					"notes": "",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Hex bolt for Oil Baffle M 10 X 40",
+					"part_number": "900 074 379 01",
+					"category": "engine",
+					"quantity": 2,
+					"source": "gaudinporscheparts",
+					"price": 2.3,
+					"notes": "Hex bolt for Oil Baffle M 10 X 40 $2.9 (bought x2). Replaces 900 074 059 02",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Sump Oil Pickup O ring",
+					"part_number": "928 107 136 04",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 4.2,
+					"notes": "",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Front Sway Bar Drop Links",
+					"part_number": "928 343 069 01",
+					"category": "suspension",
+					"quantity": 2,
+					"source": "AutohauseAz",
+					"price": 48.44,
+					"notes": "",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Front Sway Bushings",
+					"part_number": "PFF57 793 78H",
+					"category": "suspension",
+					"quantity": 2,
+					"source": "Powerflex",
+					"price": 70.98,
+					"notes": "Street polyeurethan",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Gasket",
+					"part_number": "928 606 213 03",
+					"category": "engine",
+					"quantity": 2,
+					"source": "delawareporscheparts",
+					"price": 6.32,
+					"notes": "Only need 1 $3.16ea",
+					"work_record_id": "motor_mounts",
+					"status": "installed"
+				},
+				{
+					"part_description": "Spring",
+					"part_number": "L1064",
+					"category": "interior",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": 35,
+					"status": "installed",
+					"notes": "Spring inside Shifter",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Front Belly Pan / Undertray",
+					"part_number": "928 504 021 02",
+					"category": "suspension",
+					"quantity": null,
+					"source": "928sRUs",
+					"price": 395,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Gasket for blockoff plate",
+					"part_number": "928 107 169 01",
+					"category": "engine",
+					"quantity": 2,
+					"source": "delawareporscheparts",
+					"price": 8.04,
+					"notes": "Gasket for blockoff plate x2, only need 1 $4.02 ea",
+					"work_record_id": "motor_mount",
+					"status": "installed"
+				},
+				{
+					"part_description": "GTS Windshield Side Rubber Strips (left)",
+					"part_number": "928 559 519 00 70C",
+					"category": "body",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 72.01,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Catalitic Converted Protecter Plate",
+					"part_number": "928 504 029 02",
+					"category": "body",
+					"quantity": 1,
+					"source": "fb",
+					"price": "Bought as a package for $145",
+					"status": "installed",
+					"notes": "Bought as a package for $145",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Mounting Kit Catalitic Protecter Plate",
+					"part_number": "",
+					"category": "body",
+					"quantity": 1,
+					"source": "fb",
+					"price": "Bought as a package for $145",
+					"status": "installed",
+					"notes": "Bought as a package for $145",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Fastening angle",
+					"part_number": "928 504 137 02",
+					"category": "suspension",
+					"quantity": 2,
+					"source": "fb",
+					"price": "Bought as a package for $145",
+					"status": "installed",
+					"notes": "Bought as a package for $145",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Mounting Kit Front Belly Pan / Undertray",
+					"part_number": "BPK 8795F",
+					"category": "suspension",
+					"quantity": 1,
+					"source": "928srus",
+					"price": 30.75,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Double End Spanner (8 x 9)",
+					"part_number": "999 195 011 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 12.45,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Double End Spanner (10 x 11)",
+					"part_number": "999 195 012 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 12.45,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Double End Spanner (12 x 13)",
+					"part_number": "999 195 013 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 14.23,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Double End Spanner (14 x 15)",
+					"part_number": "999 195 014 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 14.23,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Double End Spanner (17 x 19)",
+					"part_number": "999 195 015 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 19.09,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Screwdriver Set",
+					"part_number": "911 721 107 02",
+					"category": "tools",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 37.53,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "general"
+				},
+				{
+					"part_description": "Thrust Wedge - Left  #6",
+					"part_number": "928 537 341 02",
+					"category": "body",
+					"quantity": 1,
+					"source": "",
+					"price": 5.06,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "body"
+				},
+				{
+					"part_description": "Thrust Wedge - Right #6",
+					"part_number": "928 537 342 02",
+					"category": "body",
+					"quantity": 1,
+					"source": "",
+					"price": 5.06,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "body"
+				},
+				{
+					"part_description": "Counters. head tapp. for thrust wedge screw",
+					"part_number": "900 144 008 02",
+					"category": "body",
+					"quantity": 2,
+					"source": "",
+					"price": 7.88,
+					"status": "installed",
+					"notes": "Counters. head tapp. for thrust wedge screw #7 B3.5X9.5 900-144-008-02 bought 2 $3.94",
+					"work_record_id": "body"
+				}
+			],
+			"waterpump": [
+				{
+					"part_description": "G48 Antifeeze",
+					"part_number": "",
+					"category": "cooling",
+					"quantity": 6,
+					"source": "amazon",
+					"price": 120.27,
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Thermostat",
+					"part_number": "928 106 129 17",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 40.65,
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Thermostat Gasket",
+					"part_number": "999 701 632 40",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 6.84,
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Laso water pump with gaslet and bolts",
+					"part_number": "928 106 015 20",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": "Part of the package $573.29",
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Upper Radiator Hose",
+					"part_number": "928 106 238 06",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 67.79,
+					"notes": "",
+					"work_record_id": "waterpump",
+					"status": "installed"
+				},
+				{
+					"part_description": "Lower Radiator Hose",
+					"part_number": "928 106 239 07",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 76.67,
+					"notes": "",
+					"work_record_id": "waterpump",
+					"status": "installed"
+				},
+				{
+					"part_description": "Tensioner Boot",
+					"part_number": "928 105 552 08",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": "Part of the package $573.29",
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Tensioner Clamp",
+					"part_number": "999 512 564 02",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": "Part of the package $573.29",
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Tensioner Gasket",
+					"part_number": "928 105 611 05",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": "Part of the package $573.29",
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Tensioner idler roller",
+					"part_number": "928 105 571 04",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": "Part of the package $573.29",
+					"status": "installed",
+					"notes": "Used during Water pump/timing belt service",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Two driven Cam Shaft Seals",
+					"part_number": "999 113 282 40",
+					"category": "engine",
+					"quantity": 2,
+					"source": "928sRUs",
+					"price": 13.98,
+					"usage": "used during service",
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Timing Belt Porsche",
+					"part_number": "928 105 157 50",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": 8,
+					"usage": "used during service",
+					"status": "installed",
+					"notes": "Additional purchase. Used during Water pump/timing belt service.",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Bearing for Lower Idler Assembly",
+					"part_number": "SKU 621",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": 9.95,
+					"status": "installed",
+					"notes": "Verify Porsche part number. Used during Water pump/timing belt service.",
+					"work_record_id": "waterpump"
+				},
+				{
+					"part_description": "Jump Post Cover",
+					"part_number": "928 612 871 02",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 7.86,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				}
+			],
+			"power_steering": [
+				{
+					"part_description": "Power steering Belt",
+					"part_number": "999 192 286 50",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 11.15,
+					"notes": "",
+					"work_record_id": "power_steering",
+					"status": "installed"
+				}
+			],
+			"heater_valve": [
+				{
+					"part_description": "Heater Control Valve (German)",
+					"part_number": "928 574 573 04",
+					"category": "hvac",
+					"quantity": null,
+					"source": "928sRUs",
+					"price": 38.75,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Engine to Heater Valve Hose (Red Hose)",
+					"part_number": "928 574 567 03",
+					"category": "hvac",
+					"quantity": null,
+					"source": "928sRUs",
+					"price": 20,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "HVAC Control Unit",
+					"part_number": "928 573 060 09",
+					"category": "hvac",
+					"quantity": null,
+					"source": "Thom from FB",
+					"price": 430,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Rear HVAC Vents",
+					"part_number": "928 570 353 00",
+					"category": "hvac",
+					"quantity": null,
+					"source": "ebay",
+					"price": 22.69,
+					"notes": "ebay $9.28 + tax+ $12shipping",
+					"work_record_id": null,
+					"status": "installed"
+				}
+			],
+			"fuel_filter": [
+				{
+					"part_description": "Fuel Filter",
+					"part_number": "928 110 253 07",
+					"category": "fuel",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 30.01,
+					"notes": "",
+					"work_record_id": null,
+					"status": "installed"
+				},
+				{
+					"part_description": "Fuel Pump Check Valve",
+					"part_number": "893 906 093  Bosch (1 587 010 532)",
+					"category": "fuel",
+					"quantity": 1,
+					"source": "AutohauseAz",
+					"price": 13.01,
+					"notes": "",
+					"work_record_id": "fuel_filter",
+					"status": "installed"
+				},
+				{
+					"part_description": "Sealing Ring For Check Valve by Fuel Filter $0.78 ea",
+					"part_number": "900 123 005 20",
+					"category": "fuel",
+					"quantity": 1,
+					"source": "delawareporscheparts",
+					"price": 2.34,
+					"notes": "",
+					"work_record_id": "fuel_filter",
+					"status": "installed"
+				}
+			],
+			"mirrors": {},
+			"stereo": 
+			[
+				{
+					"name": "Blaupunkt",
+					"model": "Bremen SQR 46 DAB",
+					"type": "headunit",
+					"category": "interior",
+					"description": "Retro Car Stereo 80s Classic Bluetooth USB SD AUX - Black",
+					"source": "Amazon",
+					"price": 465,
+					"date_purchased": "February 04, 2023",
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "stereo"
+				},
+				{
+					"name": "Kicker",
+					"model": "KEY200.4",
+					"type": "amplifier",
+					"category": "interior",
+					"description": "200W RMS 4-channel amplifier",
+					"source": "Ebay",
+					"price": 186,
+					"date_purchased": "April 12, 2024",
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "stereo"
+				},
+				{
+					"name": "Kicker",
+					"model": "KSC40",
+					"type": "door_speakers",
+					"category": "interior",
+					"description": "KS Series 4-inch 2-Way 4 Ohm Coaxial Speakers (51KSC404)",
+					"source": "Ebay",
+					"price": 68,
+					"date_purchased": "January 10, 2026",
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "stereo"
+				},
+				{
+					"part_description": "Speaker Grills + rings",
+					"part_number": "928 555 691 00",
+					"category": "interior",
+					"quantity": 2,
+					"source": "ebay",
+					"price": 120,
+					"status": "installed",
+					"notes": "",
+					"work_record_id": "stereo"
+				}
+			],
+			"motor_mounts": 
+			[
+				{
+					"part_description": "Sealing Ring Above Oil Pressure Sender",
+					"part_number": "900 123 143 70",
+					"category": "engine",
+					"quantity": 1,
+					"source": "928sRUs",
+					"price": 4.99,
+					"status": "on_shelf",
+					"notes": "not installed",
+					"work_record_id": null,
+					"vehicle_id": "Porsche_928"
+				}
+			]
+			"intake_refresh": 
+			[
+				{
+					"part_description": "Knock sensor",
+					"part_number": "911 606 141 00",
+					"category": "engine",
+					"quantity": 2,
+					"source": "AutohauseAz",
+					"price": 38.94,
+					"notes": "",
+					"work_record_id": "intake_refresh",
+					"status": "in_progress",
+					"work_record_id": "intake_refresh"
+				},
+				{
+					"part_description": "Coolant Temperature 2 Sensor",
+					"part_number": "928 606 126 00 Bosch (0280130069)",
+					"category": "cooling",
+					"quantity": 1,
+					"source": "AutohauseAz",
+					"price": 18.99,
+					"notes": "Coolant Temperature 2 Sensor; 2 Pin FI Connector",
+					"work_record_id": "intake_refresh",
+					"status": "in_progress"
+				},
+				{
+					"part_description": "Front Cross over hose",
+					"part_number": "928 110 269 01",
+					"category": "fuel",
+					"quantity": 1,
+					"source": "sierramadrecollection",
+					"price": 84.89,
+					"notes": "",
+					"work_record_id": "intake_refresh",
+					"status": "in_progress"
+				},
+				{
+					"part_description": "Valve Cover Refresh Kit (see intake refresh)",
+					"part_number": "928 104 115 02",
+					"category": "engine",
+					"quantity": null,
+					"source": "ebay",
+					"price": 27.72,
+					"notes": "",
+					"work_record_id": "intake_refresh",
+					"status": "in_progress"
+				},
+				{
+					"part_description": "Spark Plug Seal",
+					"part_number": "928 104 443 08",
+					"category": "engine",
+					"quantity": 1,
+					"source": "gaudinporscheparts",
+					"price": 21.2,
+					"notes": "",
+					"work_record_id": "intake_refresh",
+					"status": "in_progress"
+				}
+			]
+		},
+		"needed": {
+			"electrical": {},
+			"suspension": {}
+		}
+	},
+	"knowledge_sources": [
+		{
+			"topic": "parts",
+			"source": "Porsche PET",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "Factory Manual",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "projects",
+			"source": "Rennlist",
+			"confidence": "medium",
+			"priority": 2
+		},
+		{
+			"topic": "projects",
+			"source": "Pelican Parts",
+			"confidence": "medium",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "Stuttcars",
+			"confidence": "high",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "FB",
+			"confidence": "medium",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "YouTube",
+			"confidence": "medium",
+			"priority": 2
+		}
+	],
+	"current_project": {
+		"task": "intake removal and reseal",
+		"status": "in progress",
+		"performed_by": "Christopher"
+	}
+}
