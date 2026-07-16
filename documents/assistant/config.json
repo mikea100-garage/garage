@@ -203,14 +203,19 @@
 				"priority": 1,
 				"searchable": true
 			},
-				
-			
-			
 			{
 				"id": "928_Manual_Volume_6",
 				"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
 				"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
 				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Comprehensive_S4_bolt_lengths_and_torque_values",
+				"name": "Comprehensive S4 Bolt Lengths and Torque Values",
+				"file": "https://github.com/user-attachments/files/29868833/Comprehensive_S4_bolt_lengths_and_torque_values.xlsx",
+				"type": "info",
 				"priority": 1,
 				"searchable": true
 			}
