@@ -1,0 +1,156 @@
+{
+	"make": "Porsche",
+	"model": "944",
+	"transmission": "Manual",
+	"year": 1987,
+	"identity": {
+		"vin": "",
+		"production_date": "",
+		"engine_number": "",
+		"transmission_number": ""
+	},
+	"configuration": {
+		"market": "US",
+		"engine": "2.5",
+		"fuel_system": "",
+		"transmission": {
+			"type": "",
+			"speeds": 5,
+			"designation": "",
+			"layout": "front-engine transaxle",
+			"description": ""
+		},
+		"options": [
+			{
+				"code": "",
+				"description": "Red"
+			},
+			{
+				"code": "",
+				"description": "",
+				"items": [
+				]
+			}
+		]
+	},
+	"documents": [
+		{
+			"id": "944_Workshop_Manual_Volume_1",
+			"name": "944 Shop Manual Volume 1 - Engine",
+			"file": "https://github.com/user-attachments/files/29257305/Manual_Volume_1-Engine-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_1A",
+			"name": "944 Shop Manual Volume 1A - Engine",
+			"file": "https://github.com/user-attachments/files/29257304/Manual_Volume_1A-Engine-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_2",
+			"name": "944 Shop Manual Volume 2 - Transmission",
+			"file": "https://github.com/user-attachments/files/29257326/Manual_Volume_2-Tranmission-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_3",
+			"name": "944 Shop Manual Volume 3 - Chassis",
+			"file": "https://github.com/user-attachments/files/29257327/Manual_Volume_3-Chassis-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_4",
+			"name": "944 Shop Manual Volume 4 - Electrical",
+			"file": "https://github.com/user-attachments/files/29257279/Manual_Volume_4-Electrical-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_5",
+			"name": "944 Shop Manual Volume 5 - Electrical",
+			"file": "https://github.com/user-attachments/files/29257287/Manual_Volume_5-Electrical-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_Workshop_Manual_Volume_6",
+			"name": "944 Shop Manual Volume 6 - Turbo",
+			"file": "https://github.com/user-attachments/files/29257294/Manual_Volume_6-Turbo-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		}
+	],
+	"work_records": [
+		{
+			"id": "",
+			"date": "",
+			"mileage": ,
+			"performed_by": "",
+			"status": "",
+			"task": ""
+		}
+	],
+	"parts": {
+		"inventory": {
+			"general": {}
+		},
+		"needed": {
+			"electrical": {},
+			"suspension": {}
+		}
+	},
+	"knowledge_sources": [
+		{
+			"topic": "parts",
+			"source": "Porsche PET",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "Workshop Manual",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "projects",
+			"source": "Rennlist",
+			"confidence": "medium",
+			"priority": 3
+		},
+		{
+			"topic": "info",
+			"source": "TheSamba",
+			"confidence": "high",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "914World",
+			"confidence": "high",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "YouTube",
+			"confidence": "medium",
+			"priority": 3
+		}
+	],
+	"current_project": {
+		"task": "",
+		"status": "",
+		"performed_by": ""
+	}
+}

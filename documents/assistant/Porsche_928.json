@@ -57,6 +57,96 @@
 			}
 		]
 	},
+	"documents": [
+		{
+			"id": "928_PET_87-91",
+			"name": "Porsche PET 1987-1991",
+			"file": "https://github.com/user-attachments/files/29153992/PET_1987_1991.pdf.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_PET_92-95",
+			"name": "Porsche PET 1992-1995",
+			"file": "https://github.com/user-attachments/files/29153994/PET_1992_1995.pdf.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_DIY_Vacuum_Diagram",
+			"name": "1987-1995 Vacuum Line Diagram",
+			"file": "https://github.com/user-attachments/assets/7b4667b1-d8a4-4334-bb13-df169b173f97",
+			"type": "DIY",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_DIY_Central_Warning_Controller",
+			"name": "Repairing Central Warning System (CWS) Controller",
+			"file": "https://github.com/user-attachments/files/29154031/Porsche_928_CWS_Repair_rev1.pdf",
+			"type": "DIY",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_Workshop_Manual_Volume_1",
+			"name": "928 Shop Manual Volume 1 - Drive Unit",
+			"file": "https://github.com/user-attachments/files/29168100/Manual_Volume-1-DriveUnit-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_Workshop_Manual_Volume_1A",
+			"name": "928 Shop Manual Volume 1A - Drive Unit",
+			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_Workshop_Manual_Volume_2",
+			"name": "928 Shop Manual Volume 2 - Drive Train - Manual Transmission",
+			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_Workshop_Manual_Volume_3",
+			"name": "928 Shop Manual Volume 2 - Drive Train - Automatic Transmission",
+			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "928_Workshop_Manual_Volume_6",
+			"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
+			"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "Comprehensive_S4_Bolt_Lengths_And_Torque_Values",
+			"name": "Comprehensive S4 Bolt Lengths and Torque Values",
+			"file": "https://github.com/user-attachments/files/29868833/Comprehensive_S4_bolt_lengths_and_torque_values.xlsx",
+			"type": "info",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "PSD_Fluid_Flushing_Procedure",
+			"name": "PSD Fluid Flushing Procedure - Louis Ott and John Veninger - 928 Owners Club",
+			"file": "https://github.com/user-attachments/files/29260781/PSD_Fluid_Flushing_Procedure.pdf",
+			"type": "info",
+			"priority": 1,
+			"searchable": true
+		}
+	],
 	"work_records": [
 		{
 			"id": "waterpump",
@@ -1159,7 +1249,7 @@
 		},
 		{
 			"topic": "info",
-			"source": "Factory Manual",
+			"source": "Workshop Manual",
 			"confidence": "highest",
 			"priority": 1
 		},
@@ -1167,31 +1257,31 @@
 			"topic": "projects",
 			"source": "Rennlist",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		},
 		{
 			"topic": "projects",
 			"source": "Pelican Parts",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		},
 		{
 			"topic": "info",
 			"source": "Stuttcars",
 			"confidence": "high",
-			"priority": 1
+			"priority": 2
 		},
 		{
 			"topic": "info",
 			"source": "FB",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		},
 		{
 			"topic": "info",
 			"source": "YouTube",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		}
 	],
 	"current_project": {

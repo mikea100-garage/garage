@@ -11,10 +11,12 @@
 		"directives": [
 			"Read all uploaded JSON files at the start of each session to understand the vehicles, parts inventory, work records, and available documents.",
 			"When answering questions, fetch and reference the documents listed in config.json as needed. Always cite the document name and page number where the information was found.",
+			"Use Workshop Manuals and PET documets as the Golden source of truth.",
 			"If relevant information is not found in the provided documents, search the internet or any other available resources, and indicate that the source is external and name it if possible",
 			"When providing information about a part or service procedure, be as concise as possible.",
 			"Always provide torque specifications in all three units: ft-lbs, inch-lbs, and Nm, as different torque wrenches use different scales.",
 			"When recommending parts, prefer the brands listed in global_parts_config.preferences.brands and suppliers listed in global_parts_config.suppliers where applicable."
+			"Show parts numbers, availability and prices from global_parts_config.suppliers sorted by the lowest price first. Calculate shipping to Zipcode 08820, if possible."
 		]
 	},
 	"repository": {
@@ -25,7 +27,7 @@
 	"documents": {
 		"general": [
 			{
-				"id": "general_motor_oil_reference",
+				"id": "Mobil_1_General_Motor_Oil_Reference",
 				"name": "Mobil 1 Engine Oils Product Guide Sheet",
 				"file": "https://github.com/user-attachments/files/29153880/Mobil.1.Engine.Oils.Product.Guide.Sheet.-May.2022.pdf",
 				"type": "info",
@@ -36,6 +38,14 @@
 				"id": "Bosch_K_Jetsonic",
 				"name": "Bosch - K-Jetsonic",
 				"file": "https://github.com/user-attachments/files/29162887/Bosch.-.K-Jetsonic.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "Bosch_Technical_Instruction_L_Jetsonic",
+				"name": "Bosch Technical Instruction L-Jetronic",
+				"file": "(https://github.com/user-attachments/files/30101102/Bosch_Technical_Instruction_L-Jetronic.pdf",
 				"type": "info",
 				"priority": 1,
 				"searchable": true
@@ -65,7 +75,7 @@
 				"searchable": true
 			},
 			{
-				"id": "Bosch_Fuel_Injector_Sec_A_B_C_D",
+				"id": "Fuel_Injector_Service_Parts",
 				"name": "Bosch - Fuelinjector Service Parts",
 				"file": "https://github.com/user-attachments/files/29162886/Bosch.-.Fuel.Injector.Service.Parts.pdf",
 				"type": "info",
@@ -76,14 +86,6 @@
 				"id": "Bosch_Fuel_Pumps",
 				"name": "Bosch Fuelpumps (Internet M-SPORT PUMPS - Don Tull",
 				"file": "https://github.com/user-attachments/files/29162878/Bosch.fuelpumps.Internet.M-SPORT.PUMPS.-.Don.Tull.pdf",
-				"type": "info",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "Bosch_Technical_Service_Parts_Sec_A_B_C_D",
-				"name": "Bosch Technical Service Parts (Sections a,b,c,d - Don Tull",
-				"file": "https://github.com/user-attachments/files/29162879/Bosch.Technical.Service.Parts.Sections.a.b.c.d.-.Don.Tull.pdf",
 				"type": "info",
 				"priority": 1,
 				"searchable": true
@@ -132,111 +134,6 @@
 				"id": "Welding_Galvanized",
 				"name": "Welding Galvanized Steel - Safely - Welding Zinc Coated Steel",
 				"file": "https://github.com/user-attachments/files/29162884/WeldingGalvanized.Welding.Galvanized.Steel.--.Safely.-.Welding.Zinc.Coated.Steel.pdf",
-				"type": "info",
-				"priority": 1,
-				"searchable": true
-			}
-		],
-		
-		"Porsche_928": [
-			{
-				"id": "928_PET_87-91",
-				"name": "Porsche PET 1987-1991",
-				"file": "https://github.com/user-attachments/files/29153992/PET_1987_1991.pdf.pdf",
-				"type": "parts_catalog",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_PET_92-95",
-				"name": "Porsche PET 1992-1995",
-				"file": "https://github.com/user-attachments/files/29153994/PET_1992_1995.pdf.pdf",
-				"type": "parts_catalog",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_DIY_Vacuum_Diagram",
-				"name": "1987-1995 Vacuum Line Diagram",
-				"file": "https://github.com/user-attachments/assets/7b4667b1-d8a4-4334-bb13-df169b173f97",
-				"type": "DIY",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_DIY_Central_Warning_Controller",
-				"name": "Repairing Central Warning System Controller",
-				"file": "https://github.com/user-attachments/files/29154031/Porsche_928_CWS_Repair_rev1.pdf",
-				"type": "DIY",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_Manual_Volume_1",
-				"name": "928 Shop Manual Volume 1 - Drive Unit",
-				"file": "https://github.com/user-attachments/files/29168100/Manual_Volume-1-DriveUnit-compressed.pdf",
-				"type": "shop_manual",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_Manual_Volume_1A",
-				"name": "928 Shop Manual Volume 1A - Drive Unit",
-				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-				"type": "shop_manual",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_Manual_Volume_2",
-				"name": "928 Shop Manual Volume 2 - Drive Train - Manual Transmission",
-				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-				"type": "shop_manual",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_Manual_Volume_3",
-				"name": "928 Shop Manual Volume 2 - Drive Train - Automatic Transmission",
-				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-				"type": "shop_manual",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "928_Manual_Volume_6",
-				"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
-				"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
-				"type": "shop_manual",
-				"priority": 1,
-				"searchable": true
-			},
-			{
-				"id": "Comprehensive_S4_bolt_lengths_and_torque_values",
-				"name": "Comprehensive S4 Bolt Lengths and Torque Values",
-				"file": "https://github.com/user-attachments/files/29868833/Comprehensive_S4_bolt_lengths_and_torque_values.xlsx",
-				"type": "info",
-				"priority": 1,
-				"searchable": true
-			}
-		],
-		"Porsche_914": 
-		[
-			{
-				"id": "914_D_Jetronic Fuel Injection",
-				"name": "D-Jetronic Fuel Injection - Jeff Bowlsby",
-				"file": "https://github.com/user-attachments/files/29162882/D-Jetronic.Fuel.Injection.http--www.rennlist.com-techarticles-djetronicfuel.htm.-.JABowlsby.pdf",
-				"type": "info",
-				"priority": 1,
-				"searchable": true
-			}
-		],
-		"Porsche_968": 
-		[
-			{
-				"id": "914_D_Jetronic Fuel Injection",
-				"name": "D-Jetronic Fuel Injection - Jeff Bowlsby",
-				"file": "https://github.com/user-attachments/files/29162882/D-Jetronic.Fuel.Injection.http--www.rennlist.com-techarticles-djetronicfuel.htm.-.JABowlsby.pdf",
 				"type": "info",
 				"priority": 1,
 				"searchable": true
@@ -358,7 +255,7 @@
 			"Custom",
 			"NLA"
 		],
-		"statuses": [
+		"status": [
 			"on_shelf",
 			"ordered/in_transit",
 			"installed",

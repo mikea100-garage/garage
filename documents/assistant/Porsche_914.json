@@ -12,7 +12,7 @@
 	"configuration": {
 		"market": "US",
 		"engine": "2.0",
-		"fuel_system": "Bosch D-Jetronic electronic fuel injection",
+		"fuel_system": "Bosch D-Jetronic Electronic Fuel Injection",
 		"transmission": {
 			"type": "Manual",
 			"speeds": 5,
@@ -38,6 +38,104 @@
 			}
 		]
 	},
+	"documents": [
+		{
+			"id": "914_D_Jetronic Fuel_Injection",
+			"name": "D-Jetronic Fuel Injection - Jeff Bowlsby",
+			"file": "https://github.com/user-attachments/files/29162882/D-Jetronic.Fuel.Injection.http--www.rennlist.com-techarticles-djetronicfuel.htm.-.JABowlsby.pdf",
+			"type": "info",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_0",
+			"name": "914 Shop Manual Volume 0 - Tech Data",
+			"file": "https://github.com/user-attachments/files/29256358/Manual_Volume_0-Tech_Data-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_1_914_4",
+			"name": "914 Shop Manual Volume 1 - Engine 914-4",
+			"file": "https://github.com/user-attachments/files/29256359/Manual_Volume_1-Engine_914-4-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_1_914_6",
+			"name": "914 Shop Manual Volume 1 - Engine 914-6",
+			"file": "https://github.com/user-attachments/files/29256365/Manual_Volume_1-Engine_914-6-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_2",
+			"name": "914 Shop Manual Volume 2 - Fuel Injection",
+			"file": "https://github.com/user-attachments/files/29256369/Manual_Volume_2-Fuel_Injection-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_3",
+			"name": "914 Shop Manual Volume 3 - Transmission",
+			"file": "https://github.com/user-attachments/files/29256321/Manual_Volume_3-Transmission-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_4",
+			"name": "914 Shop Manual Volume 4 - Front Axle",
+			"file": "https://github.com/user-attachments/files/29256329/Manual_Volume_4-Front_Axle-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_5",
+			"name": "914 Shop Manual Volume 5 - Rear Axle",
+			"file": "https://github.com/user-attachments/files/29256334/Manual_Volume_5-Rear_Axle-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_6",
+			"name": "914 Shop Manual Volume 6 - Rear Axle",
+			"file": "https://github.com/user-attachments/files/29256335/Manual_Volume_6-Brake-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_7",
+			"name": "914 Shop Manual Volume 7 - Controls",
+			"file": "https://github.com/user-attachments/files/29256346/Manual_Volume_7-Controls-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_8",
+			"name": "914 Shop Manual Volume 8 - Body",
+			"file": "https://github.com/user-attachments/files/29256348/Manual_Volume_8-Body-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "914_Workshop_Manual_Volume_9",
+			"name": "914 Shop Manual Volume 9 - Electrical",
+			"file": "https://github.com/user-attachments/files/29256352/Manual_Volume_9-Electrical-ocr-compressed.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		}
+	],
 	"work_records": [
 		{
 			"id": "pertronics",
@@ -66,7 +164,7 @@
 		},
 		{
 			"topic": "info",
-			"source": "Factory Manual",
+			"source": "Workshop Manual",
 			"confidence": "highest",
 			"priority": 1
 		},
@@ -74,25 +172,25 @@
 			"topic": "projects",
 			"source": "Rennlist",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		},
 		{
 			"topic": "info",
 			"source": "TheSamba",
 			"confidence": "high",
-			"priority": 1
+			"priority": 2
 		},
 		{
 			"topic": "info",
 			"source": "914World",
 			"confidence": "high",
-			"priority": 1
+			"priority": 2
 		},
 		{
 			"topic": "info",
 			"source": "YouTube",
 			"confidence": "medium",
-			"priority": 2
+			"priority": 3
 		}
 	],
 	"current_project": {
