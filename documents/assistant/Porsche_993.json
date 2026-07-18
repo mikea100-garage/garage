@@ -1,0 +1,188 @@
+{
+	"make": "Porsche",
+	"model": "993",
+	"transmission": "Manual",
+	"year": ,
+	"identity": {
+		"vin": "",
+		"production_date": "",
+		"engine_number": "",
+		"transmission_number": ""
+	},
+	"configuration": {
+		"market": "US",
+		"engine": "",
+		"fuel_system": "",
+		"transmission": {
+			"type": "",
+			"speeds": 5,
+			"designation": "",
+			"layout": "rear-engine transaxle",
+			"description": ""
+		},
+		"options": [
+			{
+				"code": "",
+				"description": ""
+			},
+			{
+				"code": "",
+				"description": "",
+				"items": [
+				]
+			}
+		]
+	},
+	"documents": [
+		{
+			"id": "993_PET_KATALOG",
+			"name": "Porsche PET KATALOG USA",
+			"file": "https://github.com/user-attachments/files/30144462/993_USA_KATALOG.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_1",
+			"name": "993 Shop Manual Volume 1 - General Engine",
+			"file": "https://github.com/user-attachments/files/30144479/Porsche.993.Manual.Volume.1.-.General.Engine-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_2_G50-20_G50-21",
+			"name": "993 Shop Manual Volume - Transmission Manual G50-120 G50-21 RWD",
+			"file": "https://github.com/user-attachments/files/30144482/Porsche.993.Manual.Volume.2.-.Transmission.G50.20.21.Manual-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_2_G64",
+			"name": "993 Shop Manual Volume - Transmission Manual G64 5-speed AWD by Getrag Carrera 4 (1989 - 1994) and 993 Turbo",
+			"file": "https://github.com/user-attachments/files/30144483/Porsche.993.Manual.Volume.2.-.Transmission.G64.Manual-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_3",
+			"name": "993 Shop Manual Volume - Transmission Automatic",
+			"file": "https://github.com/user-attachments/files/30144484/Porsche.993.Manual.Volume.3.-.Transmission.Automatic-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_4",
+			"name": "993 Shop Manual Volume 4 - Chassis",
+			"file": "https://github.com/user-attachments/files/30144486/Porsche.993.Manual.Volume.4.-.Chassis-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_4A",
+			"name": "993 Shop Manual Volume 4A - Chassis",
+			"file": "https://github.com/user-attachments/files/30144487/Porsche.993.Manual.Volume.4a.-.Chassis-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_5",
+			"name": "993 Shop Manual Volume 4- Body",
+			"file": "https://github.com/user-attachments/files/30144474/Porsche.993.Manual.Volume.5.-.Body-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_6",
+			"name": "993 Shop Manual Volume  - Air Conditioning",
+			"file": "https://github.com/user-attachments/files/30144476/Porsche.993.Manual.Volume.6.-.Air.Conditioning-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_7",
+			"name": "993 Shop Manual Volume 7 - Electric System Wiring Diagram",
+			"file": "https://github.com/user-attachments/files/30144477/Porsche.993.Manual.Volume.7.-.Electrical.System.Wiring.Diagrams-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "993_Workshop_Manual_Volume_8",
+			"name": "993 Shop Manual Volume 8 - Diagnosis",
+			"file": "https://github.com/user-attachments/files/30144478/Porsche.993.Manual.Volume.8.-.Diagnosis-compressed-OCR.pdf",
+			"type": "shop_manual",
+			"priority": 1,
+			"searchable": true
+		}
+	],
+	"work_records": [
+		{
+			"id": "",
+			"date": "",
+			"mileage": ,
+			"performed_by": "",
+			"status": "",
+			"task": ""
+		}
+	],
+	"parts": {
+		"inventory": {
+			"general": {}
+		},
+		"needed": {
+			"electrical": {},
+			"suspension": {}
+		}
+	},
+	"knowledge_sources": [
+		{
+			"topic": "parts",
+			"source": "Porsche PET",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "info",
+			"source": "Workshop Manual",
+			"confidence": "highest",
+			"priority": 1
+		},
+		{
+			"topic": "projects",
+			"source": "Rennlist",
+			"confidence": "medium",
+			"priority": 3
+		},
+		{
+			"topic": "info",
+			"source": "TheSamba",
+			"confidence": "high",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "914World",
+			"confidence": "high",
+			"priority": 2
+		},
+		{
+			"topic": "info",
+			"source": "YouTube",
+			"confidence": "medium",
+			"priority": 3
+		}
+	],
+	"current_project": {
+		"task": "",
+		"status": "",
+		"performed_by": ""
+	}
+}

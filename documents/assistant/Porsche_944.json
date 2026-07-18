@@ -35,6 +35,30 @@
 	},
 	"documents": [
 		{
+			"id": "944_2_PET_KATALOG",
+			"name": "Porsche PET 2 Katalog USA",
+			"file": "https://github.com/user-attachments/files/30144384/944_2_USA_KATALOG.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_PET_KATALOG_82-85",
+			"name": "Porsche PET 82-85 Katalog USA",
+			"file": "https://github.com/user-attachments/files/30144387/944_USA_82_85_KATALOG.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
+			"id": "944_PET_KATALOG_85-88",
+			"name": "Porsche PET 85-88 Katalog USA",
+			"file": "https://github.com/user-attachments/files/30144388/944_2_USA_85_88_KATALOG.pdf",
+			"type": "parts_catalog",
+			"priority": 1,
+			"searchable": true
+		},
+		{
 			"id": "944_Workshop_Manual_Volume_1",
 			"name": "944 Shop Manual Volume 1 - Engine",
 			"file": "https://github.com/user-attachments/files/29257305/Manual_Volume_1-Engine-ocr-compressed.pdf",
