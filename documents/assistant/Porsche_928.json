@@ -14,6 +14,7 @@
 		"engine": "M28/42",
 		"fuel_system": "LH-Jetronic",
 		"transmission": "A28.12 4-speed automatic",
+		"firing_order": "1-3-7-2-6-5-4-8",
 		"options": [
 			{
 				"code": "L908",
@@ -57,96 +58,164 @@
 			}
 		]
 	},
-	"documents": [
-		{
-			"id": "928_PET_87-91",
-			"name": "Porsche PET 1987-1991",
-			"file": "https://github.com/user-attachments/files/29153992/PET_1987_1991.pdf.pdf",
-			"type": "parts_catalog",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_PET_92-95",
-			"name": "Porsche PET 1992-1995",
-			"file": "https://github.com/user-attachments/files/29153994/PET_1992_1995.pdf.pdf",
-			"type": "parts_catalog",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_DIY_Vacuum_Diagram",
-			"name": "1987-1995 Vacuum Line Diagram",
-			"file": "https://github.com/user-attachments/assets/7b4667b1-d8a4-4334-bb13-df169b173f97",
-			"type": "DIY",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_DIY_Central_Warning_Controller",
-			"name": "Repairing Central Warning System (CWS) Controller",
-			"file": "https://github.com/user-attachments/files/29154031/Porsche_928_CWS_Repair_rev1.pdf",
-			"type": "DIY",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_Workshop_Manual_Volume_1",
-			"name": "928 Shop Manual Volume 1 - Drive Unit",
-			"file": "https://github.com/user-attachments/files/29168100/Manual_Volume-1-DriveUnit-compressed.pdf",
-			"type": "shop_manual",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_Workshop_Manual_Volume_1A",
-			"name": "928 Shop Manual Volume 1A - Drive Unit",
-			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-			"type": "shop_manual",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_Workshop_Manual_Volume_2",
-			"name": "928 Shop Manual Volume 2 - Drive Train - Manual Transmission",
-			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-			"type": "shop_manual",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_Workshop_Manual_Volume_3",
-			"name": "928 Shop Manual Volume 2 - Drive Train - Automatic Transmission",
-			"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
-			"type": "shop_manual",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "928_Workshop_Manual_Volume_6",
-			"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
-			"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
-			"type": "shop_manual",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "Comprehensive_S4_Bolt_Lengths_And_Torque_Values",
-			"name": "Comprehensive S4 Bolt Lengths and Torque Values",
-			"file": "https://github.com/user-attachments/files/29868833/Comprehensive_S4_bolt_lengths_and_torque_values.xlsx",
-			"type": "info",
-			"priority": 1,
-			"searchable": true
-		},
-		{
-			"id": "PSD_Fluid_Flushing_Procedure",
-			"name": "PSD Fluid Flushing Procedure - Louis Ott and John Veninger - 928 Owners Club",
-			"file": "https://github.com/user-attachments/files/29260781/PSD_Fluid_Flushing_Procedure.pdf",
-			"type": "info",
-			"priority": 1,
-			"searchable": true
-		}
-	],
+	"documents": {
+		"general": 
+		[
+			{
+				"id": "Comprehensive_S4_Bolt_Lengths_And_Torque_Values",
+				"name": "Comprehensive S4 Bolt Lengths and Torque Values",
+				"file": "https://github.com/user-attachments/files/29868833/Comprehensive_S4_bolt_lengths_and_torque_values.xlsx",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Specific_Tools",
+				"name": "Porsche 928 Specific Tools",
+				"file": "https://github.com/user-attachments/files/32073481/928_Specific_Tools.xlsx",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_DIY_Vacuum_Diagram",
+				"name": "1987-1995 Vacuum Line Diagram",
+				"file": "https://github.com/user-attachments/assets/7b4667b1-d8a4-4334-bb13-df169b173f97",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_DIY_Vacuum_Diagram_w_Part_Numbers",
+				"name": "1987-1995 Vacuum Line Diagram With Part Numbers",
+				"file": "https://github.com/user-attachments/assets/7370b678-8e54-41f5-a59c-549af0005cec",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928S4VR",
+				"name": "928S4VR",
+				"file": "https://www.928s4vr.com/",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		"parts_catalog":
+		[
+			{
+				"id": "928_PET_87-91",
+				"name": "Porsche PET 1987-1991",
+				"file": "https://github.com/user-attachments/files/29153992/PET_1987_1991.pdf.pdf",
+				"type": "parts_catalog",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_PET_92-95",
+				"name": "Porsche PET 1992-1995",
+				"file": "https://github.com/user-attachments/files/29153994/PET_1992_1995.pdf.pdf",
+				"type": "parts_catalog",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		"shop_manuals":
+		[
+			{
+				"id": "928_Workshop_Manual_Volume_1",
+				"name": "928 Shop Manual Volume 1 - Drive Unit",
+				"file": "https://github.com/user-attachments/files/29168100/Manual_Volume-1-DriveUnit-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Workshop_Manual_Volume_1A",
+				"name": "928 Shop Manual Volume 1A - Drive Unit",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Workshop_Manual_Volume_2",
+				"name": "928 Shop Manual Volume 2 - Drive Train - Manual Transmission",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Workshop_Manual_Volume_3",
+				"name": "928 Shop Manual Volume 2 - Drive Train - Automatic Transmission",
+				"file": "https://github.com/user-attachments/files/29170244/Manual_Volume-1A_DriveUnit-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_4",
+				"name": "928 Shop Manual Volume 4 - Chassis-Heating-AirConditioning",
+				"file": "https://github.com/user-attachments/files/29184239/Manual_Volume_4-Chassis-Heating-AirConditioning-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Manual_Volume_5",
+				"name": "928 Shop Manual Volume 5 - Manual_Volume_5-Body_Work-Car_Electrics",
+				"file": "https://github.com/user-attachments/files/29184218/Manual_Volume_5-Body_Work-Car_Electrics-ocr-compressed.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_Workshop_Manual_Volume_6",
+				"name": "928 Shop Manual Volume 6 - Electrical Circuit Diagrams",
+				"file": "https://github.com/user-attachments/files/29155297/Manual_Volume_6-Car_Electric-Circuit_Diagrams-ocr.pdf",
+				"type": "shop_manual",
+				"priority": 1,
+				"searchable": true
+			}
+		],
+		"howto_diy":
+		[
+			{
+				"id": "928_DIY_Central_Warning_Controller",
+				"name": "Repairing Central Warning System (CWS) Controller",
+				"file": "https://github.com/user-attachments/files/29154031/Porsche_928_CWS_Repair_rev1.pdf",
+				"type": "DIY",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "PSD_Fluid_Flushing_Procedure",
+				"name": "PSD Fluid Flushing Procedure - Louis Ott and John Veninger - 928 Owners Club",
+				"file": "https://github.com/user-attachments/files/29260781/PSD_Fluid_Flushing_Procedure.pdf",
+				"type": "info",
+				"priority": 1,
+				"searchable": true
+			},
+			{
+				"id": "928_DIY_GTS_Aero_Mirrors_Conversion",
+				"name": "928 GTS Aero Mirrors Conversion",
+				"file": "https://github.com/user-attachments/files/32074166/Aero.Mirrors.Conversion.pdf",
+				"type": "DIY",
+				"priority": 1,
+				"searchable": true
+			}
+			{
+				"id": "12-Hour_Mode_for_Digital_Clock",
+				"name": "12-Hour Mode for Digital Clock by Michael Schmidt",
+				"file": "https://github.com/user-attachments/files/32074166/Aero.Mirrors.Conversion.pdf",
+				"type": "DIY",
+				"priority": 1,
+				"searchable": true
+			}
+		]
+	},
 	"work_records": [
 		{
 			"id": "waterpump",
@@ -1174,7 +1243,7 @@
 					"work_record_id": null,
 					"vehicle_id": "Porsche_928"
 				}
-			]
+			],
 			"intake_refresh": 
 			[
 				{

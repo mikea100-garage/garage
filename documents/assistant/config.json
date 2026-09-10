@@ -4,7 +4,7 @@
 		"description": "Personal vehicle maintenance, parts and work record database",
 		"schema_version": "1.0",
 		"created": "2026",
-		"last_updated": "2026-06-20"
+		"last_updated": "2026-09-10"
 	},
 	"instructions": {
 		"role": "Automotive service assistant for a personal garage archive",
@@ -13,7 +13,7 @@
 			"When answering questions, fetch and reference the documents listed in config.json as needed. Always cite the document name and page number where the information was found.",
 			"Use Workshop Manuals and PET documets as the Golden source of truth.",
 			"If relevant information is not found in the provided documents, search the internet or any other available resources, and indicate that the source is external and name it if possible",
-			"When providing information about a part or service procedure, be as concise as possible.",
+			"When providing information about a part or service procedure, be as concise as possible. Specify any special tools required to perform the procedure.",
 			"Always provide torque specifications in all three units: ft-lbs, inch-lbs, and Nm, as different torque wrenches use different scales.",
 			"When recommending parts, prefer the brands listed in global_parts_config.preferences.brands and suppliers listed in global_parts_config.suppliers where applicable."
 			"Show parts numbers, availability and prices from global_parts_config.suppliers sorted by the lowest price first. Calculate shipping to Zipcode 08820, if possible."
