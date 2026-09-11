@@ -58,6 +58,76 @@
 			}
 		]
 	},
+	"maintenance": 
+	{
+		"Motor Oil": 
+		{
+			"grade": "Mobil-1 15W-50",
+			"changed": 
+			{
+				"dates_mileage": 
+				[
+					{ "date": "April 2023", "mileage": "53.9K" },
+					{ "date": "November 2023", "mileage": "54.5K" },
+					{ "date": "November 2024", "mileage": "55.5K" },
+					{ "date": "November 2025", "milaege": "56.3K" }
+				]
+			}
+		},
+		"Gear Oil": 
+		{
+			"grade": "Valvoline 75W-90",
+			"changed": {
+				"dates_mileage": 
+				[
+					{ "date": "November 2024", "mileage": "55.5K" }
+				]
+			}
+		},
+		"ATF": 
+		{
+			"grade": "Valvoline ATF DEX/MERC III",
+			"changed": 
+			{
+				"dates_mileage": 
+				[
+					{ "date": "April 2023", "mileage": "53.9K" }
+				]
+			}
+		},
+		"Coolant":{
+			"grade": "Zerex G48",
+			"changed": 
+			{
+				"dates_mileage": 
+				[
+					{ "date": "April 2023", "mileage": "53.9K" }
+				]
+			}
+		},
+		"PS Fluid": 
+		{
+			"grade": "Valvoline ATF DEX/MERC III",
+			"changed": 
+			{
+				"dates_mileage": 
+				[
+					{ "date": "October 2022", "mileage": "53K" }
+				]
+			}
+		},
+		"Fuel Filter": 
+		{
+			"grade": "Porsche 928-110-253-07",
+			"changed": 
+			{
+				"dates_mileage": 
+				[
+					{ "date": "November 2024", "mileage": "55.5K" }
+				]
+			}
+		}
+	},
 	"documents": {
 		"general": 
 		[
@@ -205,7 +275,7 @@
 				"type": "DIY",
 				"priority": 1,
 				"searchable": true
-			}
+			},
 			{
 				"id": "12-Hour_Mode_for_Digital_Clock",
 				"name": "12-Hour Mode for Digital Clock by Michael Schmidt",
@@ -220,7 +290,7 @@
 		{
 			"id": "waterpump",
 			"date": "April 29, 2023",
-			"mileage": 54000,
+			"mileage": 53900,
 			"performed_by": "Stan Kolen",
 			"status": "completed",
 			"task": [
@@ -236,7 +306,7 @@
 		{
 			"id": "power_steering",
 			"date": "April 29, 2023",
-			"mileage": 54000,
+			"mileage": 53900,
 			"performed_by": "Stan Kolen",
 			"status": "completed",
 			"task": [
